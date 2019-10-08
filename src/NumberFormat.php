@@ -19,10 +19,10 @@ class NumberFormat
      */
     public static function byteFormat($num = 0, $precision = 1)
     {
-        if ($num >= 10000000000000) {
+        if ($num >= 1000000000000) {
             $num = round($num / 1099511627776, $precision);
             $unit = 'TB';
-        } elseif ($num >= 10000000000) {
+        } elseif ($num >= 1000000000) {
             $num = round($num / 1073741824, $precision);
             $unit = 'GB';
         } elseif ($num >= 1000000) {

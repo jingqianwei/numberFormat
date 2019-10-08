@@ -1,0 +1,23 @@
+{
+    "name": "chinwe.jing/number-format",
+    "description": "一个处理数字的包",
+    "authors": [
+        {
+            "name": "chinwe.jing",
+            "email": "chinwe@etocrm.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "v7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "numberFormat\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
